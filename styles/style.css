@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Manrope", sans-serif;
+  color: rgb(96, 94, 94);
 }
 
 body {
@@ -215,6 +216,10 @@ footer {
   margin-top: auto;
 }
 
+footer p {
+  color: white;
+}
+
 .realFooter {
   display: flex;
   justify-content: space-between;
@@ -414,8 +419,10 @@ a {
 .aboutUs_first p,
 .aboutUs_second p,
 .aboutUs_third p,
-.aboutUs_third li {
+.aboutUs_third li,
+.aboutUs span {
   text-shadow: 0 2px 2px rgb(0, 0, 0);
+  color: white;
 }
 
 /* Контакты */
