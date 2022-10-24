@@ -518,7 +518,16 @@ a {
   .realFooter > div {
     width: 100%;
   }
-
+ .payment,
+  .delivery {
+    padding: 20px 20px;
+    font-size: 14px;
+  }
+  .payment h1,
+  .delivery h1 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
   .portfolio_jobs {
     display: none;
   }
